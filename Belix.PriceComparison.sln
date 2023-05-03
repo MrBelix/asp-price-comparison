@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belix.PriceComparison.Domai
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6209D58B-EFD3-425E-BEE6-0D5D37463AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belix.PriceComparison.Domain.Tests", "Belix.PriceComparison.Domain.Tests\Belix.PriceComparison.Domain.Tests.csproj", "{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belix.PriceComparison.Domain.Tests", "tests\Belix.PriceComparison.Domain.Tests\Belix.PriceComparison.Domain.Tests.csproj", "{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{066D7066-ADF7-43D0-B914-3AD591CD825A} = {066D7066-ADF7-43D0-B914-3AD591CD825A}
 	EndProjectSection
