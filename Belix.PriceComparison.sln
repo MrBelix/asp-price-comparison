@@ -4,6 +4,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4D93153-CCD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belix.PriceComparison.Domain", "src\Belix.PriceComparison.Domain\Belix.PriceComparison.Domain.csproj", "{066D7066-ADF7-43D0-B914-3AD591CD825A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6209D58B-EFD3-425E-BEE6-0D5D37463AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belix.PriceComparison.Domain.Tests", "Belix.PriceComparison.Domain.Tests\Belix.PriceComparison.Domain.Tests.csproj", "{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{066D7066-ADF7-43D0-B914-3AD591CD825A} = {066D7066-ADF7-43D0-B914-3AD591CD825A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +18,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{066D7066-ADF7-43D0-B914-3AD591CD825A} = {F4D93153-CCD1-4AFE-982D-A4916403F60C}
+		{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0} = {6209D58B-EFD3-425E-BEE6-0D5D37463AC4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{066D7066-ADF7-43D0-B914-3AD591CD825A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{066D7066-ADF7-43D0-B914-3AD591CD825A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{066D7066-ADF7-43D0-B914-3AD591CD825A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{066D7066-ADF7-43D0-B914-3AD591CD825A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0C80B7-CDEC-42BF-B24F-4C36646C27A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
